@@ -1,17 +1,10 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Get Name</title>
-</head>
+
 <body>
-
-<h2>Enter your name</h2>
-
-<form action="SaveName.jsp" method="post">
-    Name: <input type="text" name="username">
-    <br><br>
-    <input type="submit" value="Submit">
-</form>
-
+    <form method=post action="SaveName.jsp">
+        what's your name? <input type=text name=username size=20>
+        <input type=submit>
+    </form>
 </body>
+
 </html>

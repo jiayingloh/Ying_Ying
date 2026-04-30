@@ -1,12 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>First JSP</title>
-</head>
-<body>
+<HTML>
 
-<h1>This is my first JSP page</h1>
+<BODY>
+    Hello! The time is now <%= new java.util.Date() %>
+</BODY>
 
-</body>
-</html>
+</HTML>
