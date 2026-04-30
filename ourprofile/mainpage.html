@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ying Ying Profile</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #f4f4f9;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Font Style 1: Georgia, size 36px */
+        .header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        /* Font Style 2: Courier New, sizes 20px and 18px */
+        .header p.question {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: bold;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .header p.answer {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 18px;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 900px;
+            margin: 0 auto;
+            gap: 20px;
+        }
+
+        .column {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            box-sizing: border-box;
+        }
+
+        /* Font Style 3: Tahoma, size 24px */
+        .column h2 {
+            font-family: 'Tahoma', sans-serif;
+            font-size: 24px;
+            color: #0056b3;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* Font Style 4: Verdana, size 14px */
+        .column p {
+            font-family: 'Verdana', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #0056b3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: 'Verdana', sans-serif;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #004494;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Welcome to Ying Ying Page</h1>
+
+        <p class="answer">We are Loh Jia Ying and Lim Zhi Ying</p>
+    </div>
+
+    <div class="container">
+        <div class="column">
+            <h2>Loh Jia Ying</h2>
+            <p><strong>No matric:</strong> B032310401</p>
+            <p><strong>Home town:</strong> Pahang</p>
+            <p><strong>Hobby:</strong> Travel</p>
+            <p><strong>Slogan:</strong> Pahang Durian is the best</p>
+            <a href="secondpage.html" class="button">Learn more...</a>
+        </div>
+
+        <div class="column">
+            <h2>Lim Zhi Ying</h2>
+            <p><strong>No matric:</strong> B032310439</p>
+            <p><strong>Home town:</strong> Ipoh</p>
+            <p><strong>Hobby:</strong> Sport</p>
+            <p><strong>Slogan:</strong> Ipoh White Coffee is the best</p>
+            <a href="thirdpage.html" class="button">Learn more...</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
